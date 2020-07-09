@@ -13,4 +13,6 @@ driver.maximize_window()
 html = driver.page_source
 soup = bs(html, 'html.parser')
 
+
+
 driver.find_element_by_partial_link_text('웹툰').click()
